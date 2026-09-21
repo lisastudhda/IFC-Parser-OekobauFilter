@@ -10,7 +10,7 @@ import streamlit as st
 # Projekt-Quellcode-Pfad hinzufügen
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from ifc_lca_analysis.web_app import _extract_rows, _build_material_summary
+from ifc_lca_analysis.extraction import _extract_rows, _build_material_summary
 from ifc_lca_analysis.oekobaudat_processor import OekobaudatProcessor, _format_german_float
 
 
